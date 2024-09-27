@@ -1,0 +1,5 @@
+start xammp
+cd client -> ng serve
+cd server -> nodemon ./serve.js
+
+visit http://localhost:4200/home

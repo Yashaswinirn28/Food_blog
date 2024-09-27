@@ -1,0 +1,31 @@
+#brandName{
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#loggedOptions{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.LoginNSignUP{
+    display: flex;
+}
+
+.LoginButton button, .SignUpButton button{
+    margin: 1vh;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 800px) {
+    #loggedOptions{
+        display: flex;
+        justify-content: flex-start;
+    }
+}

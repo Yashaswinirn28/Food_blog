@@ -1,0 +1,17 @@
+<div class="LoginMain">
+  <div class="LoginWrapper">
+    <!-- <form action="" id="LoginForm"> -->
+    <form #loginForm="ngForm" id="LoginForm" (ngSubmit)="login(loginForm.value)">
+      <label for="">Login</label>
+      <!-- <input type="text" placeholder="Name"> -->
+      <input type="text" name="email" placeholder="Email" ngModel>
+      <!-- <input type="text" placeholder="Phone No"> -->
+      <input type="text" name="password" placeholder="Password" ngModel>
+      <!-- <input type="text" placeholder="Confirm Password"> -->
+      <div class="ButtonWrapper">
+
+        <button>Login</button>
+      </div>
+    </form>
+  </div>
+</div>
